@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 115%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif; 
+    color: #1E3A8A;
+}
+
+p {
+    line-height: 1.6;
+}
+
+header {
+    background-color: #DBEAFE;
+}
+
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
+}
+
+nav ul {
+    display: flex; 
+    justify-content: space-around; 
+    list-style-type: none; 
+}
+
+.grid {
+    display: grid; /* Bật chế độ lưới cho cái hộp này */
+    grid-template-columns: 40% 40%; /* Chẻ nó ra làm 2 cột, mỗi cột chiếm 40% chiều rộng màn hình */
+
+    justify-content: space-evenly; /* Dàn đều khoảng trống theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%; /* Chiều rộng ảnh tự động phình ra vừa khít với cái khung cột */
+}
+
+.flex {
+    display: flex; /* Bật động cơ Flexbox cho thư viện ảnh */
+    flex-wrap: wrap; /* Cho phép các bức ảnh tự động nhảy xuống hàng khi hết chỗ */
+    justify-content: space-evenly; /* Dàn đều khoảng trống xung quanh các bức ảnh cho đẹp mắt */
+}
+
+main {
+    background-color: #F8FAFC;
+    font-size: 100%;
+}
+
+footer {
+    background-color: #DBEAFE;
+}
+
+/*li {
+    display: inline-block;
+    width: 28%;
+    text-align: center;
+}*/
